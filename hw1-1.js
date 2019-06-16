@@ -1,4 +1,4 @@
-const byId = (id) => document.getElementById(id)
+const byId = (id) => document.getElementById(id);
 
 function pool(size, lowest, highest) {
 	var numbers = [];
@@ -17,8 +17,8 @@ function pool(size, lowest, highest) {
 		}
 	}
 	byId("numbers").innerHTML = numbers.join('-');
-	byId("len").innerHTML = numbers.length
-	byId("1st").innerHTML = numbers[0]
+	byId("len").innerHTML = numbers.length;
+	byId("1st").innerHTML = numbers[0];
 
 
 }
