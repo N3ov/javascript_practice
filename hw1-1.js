@@ -16,9 +16,22 @@ function pool(size, lowest, highest) {
 			i--;
 		}
 	}
-	byId("numbers").innerHTML = numbers.join('-');
+	// byId("numbers").innerHTML = numbers.join('-');
 	byId("len").innerHTML = numbers.length;
-	byId("1st").innerHTML = numbers[0];
+	byId("1st").innerHTML = numbers.slice(0,1);
+
+	// var lst = []
+	// for (let k = 0; k < 3; k++){
+	// 	lst.push(numbers[k+1]);
+	// }
+	byId("2nd").innerHTML = numbers.slice(1, 4).join('-');
+
+	// var third = []
+	// for (let l = 0; l < 10; l++){
+	// 	third.push(numbers[l+5]);
+	// }
+	byId("3rd").innerHTML = numbers.slice(4, 14).join('-');
+	byId('4st').innerHTML = numbers.slice(14, -1).join('-')
 
 
 }
