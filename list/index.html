@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <ul class="list">
+
+        <li class="list_dis"><a href="#">News</a></li>
+        <li class="list_dis"><a href="#">Headline</a></li>
+        <li class="list_dis"><a href="#">Sport</a></li>
+        <li class="list_dis"><a href="#">Weather</a></li>
+        <li class="list_dis"><a href="#">Back</a></li>
+
+        <li class="sign"><a href="#">sign in</a></li>
+        <li class="sign"><a href="#">sign up</a></li>
+    </ul>
+
+
+    <div class="wapper">
+
+        <h3>Sign up</h3>
+
+        <form action="#" method="GET" enctype="multipart/form-data">
+
+            <fieldset>
+
+                <legend>Personal Data 1</legend>
+
+                <div class="st1">
+                    <label for="account" class="t1">Name: </label>
+                    <input type="text" id="account" name="account" autocomplete="off" autofocus placeholder="guest">
+                </div>
+
+                <div class="st1">
+                    <label for="pwd" class="t1">Password: </label>
+                    <input type="password" id="pwd" name="pwd" required maxlength="8">
+                </div>
+
+                <div class="st1">
+
+                    <label for="gender" class="t1">Gender: </label>
+                    <input type="radio" name="gender" id="gender" value="male"> Man
+                    <input type="radio" name="gender" id="gender" value="female"> Woman
+
+                </div>
+
+                <div class="st1">
+                    <label for="email" class="t1">Email: </label>
+                    <input type="email" id="email" name="email" autocomplete="off">
+                </div>
+
+                <div class="st1">
+                    <label for="URL" class="t1">URL: </label>
+                    <input type="URL" name="URL" id="URL" autocomplete="off" value="http://">
+                </div>
+
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Address </legend>
+
+                <div class="st1">
+
+                    <label for="LivingIn" class="t1">Country: </label>
+
+                    <select name="LivingIn" id="LivingIn">
+                        <option value="TPE">Taipei City</option>
+                        <option value="TPH">New Taipei City</option>
+                        <option value="TYU">TYC</option>
+                        <option value="HSC">HSC</option>
+                    </select>
+                </div>
+
+                <div class="st1">
+
+                    <label for="location" class="t1">Address: </label>
+                    <input type="text" name="location" id="location" size="30">
+
+                </div>
+
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Personal Data 2</legend>
+
+                <div class="st1">
+                    <label for="hobby" class="t1">Hobby: </label>
+                    <input type="checkbox" name="hobby" id="hobby" value="music">Music
+                    <input type="checkbox" name="hobby" id="hobby" value="sport">Sport
+                    <input type="checkbox" name="hobby" id="hobby" value="reading">Reading
+                    <input type="checkbox" name="hobby" id="hobby" value="movie">Movie
+
+                </div>
+
+                <div class="st1">
+
+                    <label for="URL" class="t1">Blog: </label>
+                    <input type="URL" name="urls" list="urls">
+                    <datalist id="urls">
+                        <option value="https://www.google.com/">Google
+                        <option value="https://github.com/">Github
+                        <option value="https://tw.yahoo.com/">yahoo
+                    </datalist>
+
+                </div>
+
+                <div class="st1">
+
+                    <label for="file" class="t1">Upload: </label>
+                    <input type="file" name="file" id="file" multiple>
+
+                </div>
+
+                <div class="st1">
+                    <label for="memo" class="t1">Suggest: </label>
+                    <textarea cols="30" rows="5" id="memo" name="memo"></textarea>
+
+                </div>
+
+            </fieldset>
+
+            <div class="sub">
+
+                <input class="submit" type="submit" value="Submit">
+                <input class="clear" type="reset" value="Clear">
+
+            </div>
+
+            <footer>
+                <div></div>
+            </footer>
+
+        </form>
+    </div>
+</body>
+
+</html>

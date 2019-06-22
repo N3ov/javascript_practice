@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+}
+
+legend {
+    font-size: 20px;
+    color: #6A5ACD;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    margin: auto;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.list {
+    margin-bottom: 5px;
+}
+
+.list_dis {
+    font-size: 20px;
+}
+
+.list a:link {
+    color: white;
+}
+
+.list a:visited {
+    color: white;
+}
+
+.list a:hover {
+    background-color: #111111;
+    text-decoration: underline;
+}
+
+.sign {
+    padding-top: 5px;
+    float: right;
+    font-size: 5px;
+}
+
+.wapper {
+    width: 450px;
+    height: auto;
+    margin: 100px auto;
+}
+
+h3 {
+    margin: auto; 
+    text-align: center;
+    font-size: 40px; 
+    color: #87CEFA
+}
+
+.st1 {
+    /* width: 450px; */
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.sub {
+    width: auto;
+    text-align: center;
+    float: right;
+    
+}
+
+.submit{
+    margin: 0% 5px;
+    overflow: hidden;
+    
+}
+
+.t1 {
+    width: 100px;
+    float: left;
+    text-align: right;
+}
+
+textarea {
+    resize: none;
+}
+
+fieldset {
+    width: 500px;
+    border: 1px solid #48D1CC;
+    margin: 5px;
+}
+
