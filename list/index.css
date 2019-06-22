@@ -2,13 +2,20 @@
 * {
     margin: 0;
     padding: 0;
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'B612 Mono', monospace; */
     font-family: Comic Sans MS;
+    /* font-family: 'Teko', sans-serif; */
     font-size: 16px;
 }
 
 legend {
     font-size: 20px;
     color: #6A5ACD;
+    font-weight: 600;
+    padding-left: 10px;
+    
 }
 
 ul {
@@ -41,17 +48,22 @@ li a {
     font-size: 20px;
 }
 
-.list a:link {
+/* .list a:link {
     color: white;
-}
+} */
 
-.list a:visited {
+/* .list a:visited {
     color: white;
-}
+} */
 
 .list a:hover {
     background-color: #111111;
     text-decoration: underline;
+}
+
+.list a:active {
+    font-size: 10px;
+    /* color: white; */
 }
 
 .sign {
@@ -64,6 +76,7 @@ li a {
     width: 450px;
     height: auto;
     margin: 100px auto;
+    
 }
 
 h3 {
@@ -77,7 +90,9 @@ h3 {
     /* width: 450px; */
     border-bottom: 1px solid #dcdcdc;
     padding-bottom: 10px;
+    
     margin: 10px;
+    color: #272727;
 }
 
 .sub {
@@ -96,7 +111,10 @@ h3 {
 .t1 {
     width: 100px;
     float: left;
-    text-align: right;
+    padding-left: 0px;
+    /* text-align: right; */
+    font-weight: 600;
+    color: 	#696969;
 }
 
 textarea {
